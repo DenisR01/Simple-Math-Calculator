@@ -28,9 +28,9 @@ int main(){
         if(choice==1){for(int i=0;i<n;i++)
             result+=v[i];
         }
-        else if(choice==2)
-            for(int i=0;i<n;i++)
-        result-=v[i];
+        else if(choice==2){result=v[0];
+            for(int i=1;i<n;i++)
+        result-=v[i];}
         else if(choice==3){int p=1;
             for(int i=0;i<n;i++)
             p*=v[i];
